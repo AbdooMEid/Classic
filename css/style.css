@@ -1,0 +1,327 @@
+/* Start main rols */
+body{
+   
+    height:4000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+*
+{
+    box-sizing: border-box;  
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+/* end main rols */
+/* Start navbar */
+.navbaar{
+    font-size:18px ;
+    height: 0px;
+    color: #fff;
+    position: relative;
+    z-index: 3;
+}
+.navbaar .brand{
+    float: left;
+    width: 50%;
+  margin-top: 10px;
+    text-transform: uppercase;
+}
+.navbaar .links
+{
+   margin-top: 20px;
+   width: 50%;
+   float: left;
+   text-align: right;
+}
+.navbaar .links li{
+   
+    display: inline-block;
+    margin: 0px 10px ;
+    padding: 10px 0;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    font-weight:bold ;
+}
+.navbaar .links li a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbaar .links li.active a,
+.navbaar .links li a:hover{
+    color:#1abc9b ;
+}
+.navbaar .links li.active ,
+.navbaar .links li:hover{
+    border-bottom: 2px solid #1abc9b;
+}
+/* End navbar */
+/* start header */
+.header{
+    background: url(../image/slideshow-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 2;
+}
+.header .overlay{
+    background-color: rgba(0,0,0, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.header .slider
+{
+    height: 100%;
+}
+.header .bx-wrapper{
+    height: 100%;
+    background: none;
+    width: 100%;
+    border: 0;
+    box-shadow: none;
+}
+.header .bx-wrapper .bx-viewport{
+    height: 100% !important;
+    width: 100%;
+    text-align: center;
+}
+.header .slider li{
+    display: block;
+}
+.header .slider li h2{
+    color: #fff;
+    font-size:50px;
+    font-weight: bold;
+    margin-bottom:5px;
+    margin-top: 0px;
+}
+.header .slider li h2 span{
+    color: #1abc9b;
+}
+.header .slider li p{
+    color: #fff;
+}
+/* end header */
+/* Start About */
+.service{
+    padding: 80px 20px 40px;
+    overflow: hidden;
+    
+}
+.service h2{
+    margin: 0 0 50px;
+}
+.service .item{
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 20px; 
+}
+.service .item i{
+    color: #1bbc9b;
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+.service .item .info{
+    float: left;
+    width: 75%;
+    font-weight: normal;
+}
+.service .item .info h3{
+    color:#3f3f3f;
+    margin-bottom: 5px;
+}
+.service .item .info p{
+    color: #c2c2c2;
+    margin-top: 0;
+}
+.our-team {
+    padding:60px 20px 40px ;
+    overflow: hidden;
+}
+.our-team .box{  
+    float: left;
+}
+.our-team .box p{
+    color: #c2c2c2;
+    line-height: 1.5;
+    padding-top: 15px;
+}
+.our-team .box:first-child{
+    width:30% ;
+}
+.our-team .box:not(:first-child){
+    width:15.5%;
+    margin-left: 2%;
+    margin-top: 20px;
+    position: relative;
+    transition: all 1.5s ease-in-out;
+}
+.our-team .box:not(:first-child) img{
+    width: 100%;
+}
+.our-team .box:not(:first-child) .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 183px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color:rgb(27, 188, 155,.6);
+    display: none; 
+}
+.our-team .box:not(:first-child):hover .overlay
+{
+    display: block;
+}
+/* End About */
+/* Start Testimonials */
+.testim{
+    background-image: url(../image/banner.jpg);
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    margin: 100px 0; 
+    position: relative;  
+}
+.testim .t-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    color: #fff;
+}
+.testim  h2{
+    font-size: 30px;
+    padding-top: 90px;
+    
+}
+.testim  q{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.7;
+    color: #999;
+    margin-top: 80px;
+    display: block;
+}
+.testim p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1abc9b;
+    padding-top: 60px;
+}
+.testim .slider-code > div{
+    display: none;
+}
+.testim .slider-code .active{
+    display: block;
+}
+/* End Testimonials */
+/* Start Portfolio */
+.portfolio .port .property{
+    display:inline-block;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.portfolio .port .property li{
+    float: left;
+    margin: 10px 0 20px 0;
+    margin-right: 10px;
+    font-size: 20px;
+    border: 2px solid #D4CCCC;
+    color: #A7A7A7;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.portfolio .port .property li.selected{
+    background-color: #1abc9b;
+    border: 2px solid #1abc9b;
+    color: #fff;
+}
+.portfolio .our-projectas{
+    overflow: hidden;
+    margin-top: 30px;
+    
+}
+.portfolio .our-projectas .row > div:nth-child(2){
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+}
+.portfolio .our-projectas .row > div {
+    width:32.3333% ;
+    float: left;
+    margin-bottom: 15px;
+    position: relative;
+}
+.portfolio .our-projectas .row > div img{
+    width:100% ;
+}
+.portfolio .our-projectas .row  .over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 390px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color:rgb(27, 188, 155,.6);
+    display: none;
+   
+}
+.portfolio .our-projectas .row  .over span{
+    border: 1px solid #fff;
+    padding: 15px 20px;
+    color: #fff;
+}
+.portfolio .our-projectas .row .heart{
+    position: absolute;
+    bottom: 19px;
+    right: 19px;
+    color: #fff;
+    display: none;
+}
+.portfolio .our-projectas .row > div:hover .over,
+.portfolio .our-projectas .row > div:hover .heart{
+    display: block;
+}
+
+/* End Portofolio */
+/* my fram work */
+li{list-style: none;}
+.specil-heading{position: relative;}
+.specil-heading::after{
+    content:"";
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 35px;
+    border: 2px solid #555;
+}
+.clear-fixed{clear: both;}
+.separator{border:1px solid #eee ; display: block;}
+/* End my fram work */
