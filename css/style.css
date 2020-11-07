@@ -1,16 +1,17 @@
 /* Start main rols */
-body{
-   
-    height:4000px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
-}
-*
-{
-    box-sizing: border-box;  
-}
+body{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  }
+*{box-sizing: border-box;}
 .container{
     width: 1200px;
     margin: auto;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h2,h3,h4,h5,h6{
+    font-weight: normal;
 }
 /* end main rols */
 /* Start navbar */
@@ -177,7 +178,6 @@ body{
     height: 100%;
     line-height: 183px;
     font-size: 15px;
-    font-weight: bold;
     text-align: center;
     background-color:rgb(27, 188, 155,.6);
     display: none; 
@@ -308,6 +308,67 @@ body{
 }
 
 /* End Portofolio */
+/* start footer */
+.footer{
+    background-color: #232323;
+    color: #6c6c6c;
+    overflow: hidden;
+    padding: 30px 0;
+    margin-top:60px ;
+}
+.footer .col{
+    width: 25%;
+    float: left;
+}
+.footer .col h2{
+    color: #eee;
+    font-weight: normal;
+    font-size: 20px;
+}
+.footer .col p{
+    margin-bottom: 30px;
+    line-height: 1.4;
+
+}
+.footer .col i{
+    padding: 10px;
+    border: 1px solid #979797;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 40px;
+}
+.footer .first span{
+    margin-right: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #979797;
+    display: inline-block;
+    color: #ccc;
+} 
+.footer .recent div{
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.footer .recent div img{
+    float: left;
+    margin-right:10px;
+}
+.footer .recent div h4{
+    font-weight: normal;
+    color: #ccc;
+    margin: 8px 0;
+    margin-right: 0;
+    padding-right: 0;
+}
+.footer .blog ul{
+    padding-left: 0;
+}
+.footer .blog ul li{
+    padding:15px 0px;
+    border-bottom: 1px solid #979797;
+}
+
+/* end footer */
 /* my fram work */
 li{list-style: none;}
 .specil-heading{position: relative;}

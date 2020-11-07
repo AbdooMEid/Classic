@@ -75,7 +75,14 @@ $(function () {
         $(this).addClass('selected').siblings().removeClass('selected');
 
     })
-    
+
+    //Triger nice scroll
+    $("body").niceScroll({
+        cursorcolor: '#1abc9b' ,
+        cursorwidth:"8px",
+        cursorborder:'1px solid #1abc9b'
+    });
+
 
 });
 
